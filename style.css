@@ -1,4 +1,4 @@
-.card{
+/* .card{
   border: 2px solid black;
   margin:20px;
   padding: 30px;
@@ -15,4 +15,50 @@ div {
 
 i {
   color: white;
+} */
+
+/* 
+.modal {
+  width: 400px;
+  height: 200px;
+  border: 4px solid black;
+  padding: 30px;
+  position: absolute;
+  top: 40px;
+  left: 200px;
+  display:none
+} */
+
+/* body {
+  background-color: white;
+  color: black;
 }
+
+.modo-oscuro {
+  background-color: black;
+  color: white
+}
+   */
+
+   /* CARRUSEL */
+
+   body {
+     margin: 0px;
+   }
+
+   .carrusel-items{
+      display: flex;
+      overflow-x: scroll;
+   }
+
+   .carrusel-item {
+    min-width: 300px;
+    max-width: 300px;
+    height: 200px;
+   }
+
+   .carrusel-item img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+   }
